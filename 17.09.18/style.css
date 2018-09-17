@@ -40,3 +40,19 @@ a:link {
     border: 5px  solid red;
 
 }
+.asas {
+    background-color: #ff0000;
+    width: 270px;
+    float: left
+}
+
+.psas {
+    background-color: #ffff00;
+    width: 20%;
+    
+}
+ 
+li {
+    list-style-image: url(mail.png);
+}
+
