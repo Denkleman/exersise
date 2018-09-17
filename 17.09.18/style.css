@@ -56,3 +56,27 @@ li {
     list-style-image: url(mail.png);
 }
 
+.ssss {
+    width: 200px;
+    float: left;
+    background-color: aqua;
+    border: 5px  solid red;
+}
+.sss {
+    width: 200px;
+    margin-left: 220px;
+    background-color: aqua;
+    border: 5px  solid red;
+}
+.ss {
+    width: 200px;
+    margin-left: 440px;
+    background-color: aqua;
+    border: 5px  solid red;
+}
+.s {
+    width: 200px;
+    margin-left: 660px;
+    background-color: aqua;
+    border: 5px  solid red;
+}
