@@ -1,0 +1,51 @@
+
+.flex-container {
+    background-color: blueviolet;
+    
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+a:link {
+    color: #ffffff; 
+   }
+   a:visited {
+    color: #ffffff; 
+   }
+   a:active {
+    color: #f00; 
+   } 
+   a:hover {
+    background: #ff0000; 
+    color: #ffe;
+   }
+
+
+   @media only screen and (max-width: 600px)  {
+        .flex-container {
+            background-color: blue;
+            
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            
+        
+        }
+    }
+
+
+
+
+
+
+
+
+
+   

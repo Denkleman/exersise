@@ -1,0 +1,23 @@
+.as {
+    background: black;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    animation-name: hehe;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+
+
+}
+
+@keyframes hehe {
+    0% { left:0; top:0;}
+    30% { top: 600px; left:0; }
+    60% { top: 0; left: 0; }
+    80% { top: 0; left: 400px; }
+    100% { top: 0; left: 0; }
+}

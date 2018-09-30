@@ -1,0 +1,128 @@
+body{
+    padding: 50px;
+    margin: 50px;
+    background: #fbff96;
+    font-size: 50px;
+}
+
+img {
+    margin-left: auto;
+	margin-right: auto;
+    display: block;
+    height: 450px ;
+    width: 350px ;
+    border: 3px solid rebeccapurple;
+
+}
+
+.aaa {
+    padding: 50px;
+    height: 2300px;
+    
+    position: relative;
+    background: #e7e6d4;
+    text-align: right;
+    border: 3px solid #645a4e;
+    text-align: center;
+
+}
+
+.block0 {
+    position: absolute; 
+    width: 77%;
+    height: 200px ;
+    top: 150px; 
+    left: 8%;
+    padding: 50px;
+    background: #ffffff; 
+    border: 3px solid #312a22;
+    text-align: center;
+  }
+.block {
+    position: absolute; 
+    width: 30%;
+    height: 500px ;
+    top: 70%; 
+    left: 8%;
+    padding: 50px;
+    background: #ffffff; 
+    border: 3px solid #312a22;
+    text-align: center;
+  }
+
+  .block1 {
+    position: absolute; 
+    width: 30%;
+    height: 500px ;
+    top: 70%; 
+    left: 55%;
+    padding: 50px;
+    background: #ffffff; 
+    border: 3px solid #312a22;
+    text-align: center;
+  }
+
+
+  .block2 {
+    position: absolute; 
+    width: 30%;
+    height: 500px ;
+    top: 165%; 
+    left: 8%;
+    padding: 50px;
+    background: #ffffff; 
+    border: 3px solid #312a22;
+    text-align: center;
+  }
+
+
+  .block3 {
+    position: absolute; 
+    width: 30%;
+    height: 500px ;
+    top: 165%; 
+    left: 55%;
+    padding: 50px;
+    background: #ffffff; 
+    border: 3px solid #312a22;
+    text-align: center;
+  }
+
+
+  .block4 {
+    position: absolute; 
+    width: 30%;
+    height: 500px ;
+    top: 255%; 
+    left: 8%;
+    padding: 50px;
+    background: #ffffff; 
+    border: 3px solid #312a22;
+    text-align: center;
+  }
+
+  
+  .block5 {
+    position: absolute; 
+    width: 30%;
+    height: 500px ;
+    top: 255%; 
+    left: 55%;
+    padding: 50px;
+    background: #ffffff; 
+    border: 3px solid #312a22;
+    text-align: center;
+  }
+  a:link {
+    color: #000000; 
+   }
+   a:visited {
+    color: #000000; 
+   }
+   a:active {
+    color: #f00; 
+   } 
+   a:hover {
+    background: #ff0000; 
+    color: #000;
+   }
