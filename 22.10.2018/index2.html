@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html> 
+<head>
+     <meta charset="utf-8">
+     <title>Привет мир</title>
+     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+
+     <script type="text/javascript" >
+   
+    function valid (form) {
+  var fail = false;
+
+  var email = form.email.value;
+  var password = form.password.value;
+
+  var adr_pattern = /[0-9a-z_]+@[0-9a-z_]+\.[a-z]{2,5}/i;
+  
+
+  
+ 
+  if (adr_pattern.test(email) == false) 
+   fail = "email неправильный";
+  else if (password == "") 
+   fail = "Вы не ввели пароль";
+ 
+  
+  
+
+  if (fail) 
+   alert(fail);
+  else 
+   window.location = "index3.html";
+ 
+ }
+ </script>
+</head>
+<body>
+ <form action="" method="post" name="test" id="form">
+ 
+  
+
+
+  <input type="text" name="email" placeholder="email" id="email" /> <br/><br/>
+
+  
+  <input type="password" name="password" placeholder="Пароль" id="password" /> <br/><br/>
+
+  
+
+
+
+  
+  <input type="button" onclick="valid(document.getElementById('form'))" name="submit" value="Готово"/>
+ </form>
+   
+  </body>
+</html>
+
+
+    
+</body>
+
+</html>

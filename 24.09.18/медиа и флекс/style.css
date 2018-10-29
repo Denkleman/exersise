@@ -28,7 +28,7 @@ a:link {
    }
 
 
-   @media only screen and (max-width: 600px)  {
+   @media(max-width: 1000px)  {
         .flex-container {
             background-color: blue;
             
